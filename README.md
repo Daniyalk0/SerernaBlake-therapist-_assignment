@@ -69,7 +69,7 @@ This project includes the following key sections:
 
 ## 📹 Walkthrough Video
 
-🎥 [Watch the Demo](https://your-loom-or-drive-link.com)
+🎥 [Watch the Demo](https://www.loom.com/share/bac63592642e44c69ef4effd3d5102fe?sid=3)
 
 Covers:
 - Layout & responsiveness (desktop/mobile)
