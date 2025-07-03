@@ -28,7 +28,6 @@ const Hero = () => {
              preload="auto"
             muted
             playsInline
-            poster="/hero-poster.jpg"
             className="absolute top-0 left-0 w-full h-full object-cover z-0"
           />
 
