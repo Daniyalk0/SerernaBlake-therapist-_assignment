@@ -13,13 +13,13 @@ const ServiceCard = ({ heading, content, img }) => {
 
   return (
     <div className="flex flex-col justify-center items-center gap-4">
-      <InViewMotion
-        variants={childVariants}
-        as="div"
+      <div
         className="rounded-full w-[80vw] h-[80vw] sm:w-[40vw] sm:h-[40vw]  overflow-hidden md:w-[25vw] md:h-[25vw]"
       >
-        <img src={img} alt="" className="w-full h-full object-cover" />
-      </InViewMotion>
+        <InViewMotion
+        variants={childVariants}
+        as="img" src={img} alt="" className="w-full h-full object-cover" />
+      </div>
 
       <div className="flex items-center justify-center gap-5 lg:gap-3 px-[0.6rem]  sm:px-0  flex-col">
          <InViewMotion
